@@ -79,3 +79,17 @@ li {
   background-color: rgba(128, 128, 128, 0.158);
   transition: 0.3s;
 }
+
+main {
+  display: flex;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 5px;
+  width: 80%;
+  border: 1px solid rgba(128, 128, 128, 0.411);
+  justify-content: space-between;
+}
+
+main p {
+  padding-left: 20px;
+}
