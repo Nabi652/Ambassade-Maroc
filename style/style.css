@@ -93,3 +93,20 @@ main {
 main p {
   padding-left: 20px;
 }
+
+section {
+  display: flex;
+  width: 85%;
+  margin: auto;
+}
+
+h2 {
+  border: 1px solid rgba(128, 128, 128, 0.411);
+  background-color: rgba(128, 128, 128, 0.158);
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+}
+section p {
+  text-align: justify;
+}
