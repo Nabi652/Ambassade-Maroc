@@ -20,7 +20,7 @@ body {
 }
 h1 {
   font-size: normal;
-  margin: auto0;
+  margin: auto;
   margin-top: 50px;
   padding: 70px;
 }
@@ -136,4 +136,64 @@ footer {
 
 .footer-ul li {
   cursor: pointer;
+}
+/* media queries */
+
+@media only screen and (min-width: 360px) and (max-width: 1000px) {
+  /* ----------------- box header ------------*/
+  /* header {
+    width: 100%;
+  }*/
+
+  .imageLogo {
+    width: 70%;
+    margin: auto;
+  }
+  .logo {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 5px;
+  }
+
+  .nav1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main img {
+    width: 100%;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .colonne1,
+  .colonne2,
+  .colonne3 {
+    width: 100%;
+  }
+  .footer-ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-ul li {
+    padding: 5px;
+  }
 }
