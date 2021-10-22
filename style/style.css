@@ -96,8 +96,10 @@ main p {
 
 section {
   display: flex;
-  width: 85%;
+  flex-wrap: wrap;
+  width: 80%;
   margin: auto;
+  justify-content: center;
 }
 
 h2 {
@@ -107,6 +109,13 @@ h2 {
   padding: 10px;
   margin-right: 10px;
 }
-section p {
-  text-align: justify;
+
+.colonne1,
+.colonne2,
+.colonne3 {
+  width: 30%;
+}
+.colonne2 {
+  margin-right: auto;
+  margin-left: auto;
 }
