@@ -14,9 +14,7 @@ body {
   width: 100%;
   margin: auto;
   display: flex;
-
   border: 2px solid rgba(128, 128, 128, 0.336);
-
   position: relative;
   /* background-color: #008301; */
 }
@@ -43,9 +41,9 @@ nav {
   padding-right: 50px;
 }
 
-ul {
+.nav-ul,
+.nav1 {
   display: flex;
-
   justify-content: end;
   margin: 0px;
 }
@@ -62,7 +60,6 @@ li {
 .navigation {
   display: flex;
   justify-content: center;
-
   cursor: pointer;
   /* padding: 25px;
   padding-right: 45px; */
@@ -79,6 +76,7 @@ li {
   background-color: rgba(128, 128, 128, 0.158);
   transition: 0.3s;
 }
+/* main avec image du roi du maroc et petit texte à gauche */
 
 main {
   display: flex;
@@ -94,6 +92,11 @@ main p {
   padding-left: 20px;
 }
 
+.img-roi {
+  height: 100%;
+}
+
+/* section info*/
 section {
   display: flex;
   flex-wrap: wrap;
@@ -118,4 +121,19 @@ h2 {
 .colonne2 {
   margin-right: auto;
   margin-left: auto;
+}
+
+/* footer */
+footer {
+  background-color: #ebebeb;
+  padding: 25px;
+}
+
+.footer-ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-ul li {
+  cursor: pointer;
 }
